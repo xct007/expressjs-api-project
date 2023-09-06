@@ -1,16 +1,13 @@
 /**
  * @fileoverview Router for /api/echo
  * @description
- * This file defines the router for /api/echo.
+ * This module defines the router for /.
  * It exports an Express router instance.
- * It is mounted at /api/echo in src/api/api.js.
- * It handles GET requests to /api/echo.
- * It sends a JSON response.
- * It uses the echo function from src/api/lib/echo.js.
- * @see {@link module:src/api/lib/echo}
- * @module src/api/echo
+ * It is mounted at / in src/app.js.
+ * @see {@link module:src/router/lib/echo}
+ * @module src/router/echo
  * @requires express
- * @requires src/api/lib/echo
+ * @requires src/router/lib/echo
  * @exports router
  */
 
